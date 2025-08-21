@@ -5,6 +5,16 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
+  "repository": "https://github.com/samishal1998/simple-access-control",
+  "keywords": [
+    "simple-access-control",
+    "simple access control",
+    "access control",
+    "authorization",
+    "permission",
+    "permissions manager"
+  ],
+  "author": "Sami Mishal <contact@samyx.net>",
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
