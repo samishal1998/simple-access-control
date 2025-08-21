@@ -375,7 +375,7 @@ Contributions welcome! Please read our contributing guide and open an issue or P
 
 ## 📄 License
 
-MIT License - see LICENSE file for details.
+Apache 2.0 License - see LICENSE file for details.
 
 ## 🔗 Inspiration
 
