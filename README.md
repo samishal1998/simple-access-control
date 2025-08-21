@@ -1,4 +1,4 @@
-# @samyx/simple-access-control
+# simple-access-control
 
 A lightweight, AWS ARN-inspired access control library focused on **simplicity first**. Built with TypeScript, tested extensively, and designed for hierarchical permission systems.
 
@@ -24,22 +24,22 @@ This library prioritizes **developer experience and simplicity** over raw perfor
 
 ```bash
 # npm
-npm install @samyx/simple-access-control
+npm install simple-access-control
 
 # yarn  
-yarn add @samyx/simple-access-control
+yarn add simple-access-control
 
 # pnpm
-pnpm add @samyx/simple-access-control
+pnpm add simple-access-control
 
 # bun
-bun add @samyx/simple-access-control
+bun add simple-access-control
 ```
 
 ## 📖 Quick Start
 
 ```typescript
-import { PermissionTree } from "@samyx/simple-access-control"
+import { PermissionTree } from "simple-access-control"
 
 // Create a permission tree with various rules
 const tree = new PermissionTree([
@@ -330,7 +330,7 @@ const explanation = tree.explain("users::123::posts::456", "read")
 
 ### `explainPermission` Helper
 ```typescript
-import { explainPermission } from "@samyx/simple-access-control"
+import { explainPermission } from "simple-access-control"
 
 explainPermission(tree, "users::123::posts::456", "read")
 ```
@@ -354,10 +354,10 @@ Supports both ESM and CommonJS:
 
 ```typescript
 // ESM
-import { PermissionTree } from "@samyx/simple-access-control"
+import { PermissionTree } from "simple-access-control"
 
 // CommonJS  
-const { PermissionTree } = require("@samyx/simple-access-control")
+const { PermissionTree } = require("simple-access-control")
 ```
 
 ## 🧪 Testing
