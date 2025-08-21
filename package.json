@@ -1,0 +1,33 @@
+{
+  "name": "@samyx/simple-access-control",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "bun test",
+    "build": "tsdown",
+    "lint": "biome check .",
+    "format": "biome format --write .",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "biome": "^0.3.3",
+    "bun-types": "^1.0.0",
+    "tsdoc": "^0.0.4",
+    "tsdown": "^0.14.1",
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  }
+}
